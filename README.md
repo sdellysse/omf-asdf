@@ -6,7 +6,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Fish Shell Version](https://camo.githubusercontent.com/dc7bbef9137858d498f4cdf6de91b15bfdd05447ddf803edc1e8ef035056ba19/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666973682d25453225383925413576322e322e302d3030374543372e7376673f7374796c653d666c61742d737175617265)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
-[![Build](https://github.com/sdellysse/omf-asdf/workflows/Test/badge.svg)](https://github.com/sdellysse/omf-asdf/actions?query=workflow%3ATest)
+[![Test](https://github.com/sdellysse/omf-asdf/workflows/Test/badge.svg)](https://github.com/sdellysse/omf-asdf/actions?query=workflow%3ATest)
 
 
 
