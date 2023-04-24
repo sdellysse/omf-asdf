@@ -22,4 +22,4 @@ jobs:
           version: 0.0.20230423
 
       - name: Run tests
-        run: test/test.fish
+        run: fish test/test.fish
