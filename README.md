@@ -3,53 +3,9 @@
 #### asdf
 > A plugin for [Oh My Fish][omf-link].
 
-[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
-[![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
+[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Fish Shell Version](https://camo.githubusercontent.com/dc7bbef9137858d498f4cdf6de91b15bfdd05447ddf803edc1e8ef035056ba19/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666973682d25453225383925413576322e322e302d3030374543372e7376673f7374796c653d666c61742d737175617265)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
-<br/>
 
-This plugin installs [asdf](https://github.com/asdf-vm/asdf) and initializes it using an oh-my-fish plugin. It also provides a few helper functions.
-
-## Install
-
-```fish
-$ omf install asdf
-```
-
-
-## Usage
-
-```fish
-$ asdf <command> # see asdf documentation
-```
-
-Helper function for listing all installed asdf plugins with all their respective installed versions:
-
-```fish
-$ asdf-list-all
-```
-
-Helper functions for listing all active tools and their versions. This reads from `.tool-versions` files recursively up the directory tree starting from `pwd`. It also ignores global versions defined in `~/.tool-versions`.
-
-```fish
-$ asdf-tools
-```
-
-
-# TODO
-
-In the future I plan to have this plugin provide fish functions for determining tool versions through asdf, so theme designers can optionally include tool versions in prompts.
-
-
-# License
-
-[MIT][mit] © [Chris Dosé][author] et [al][contributors]
-
-
-[mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/plugin-asdf/graphs/contributors
-[omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
-
-[license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
+This plugin installs [asdf](https://github.com/asdf-vm/asdf) if needed and initializes it using an oh-my-fish plugin.

@@ -1,0 +1,23 @@
+name: Test
+
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: Install deps
+        run: apt update --yes && apt install --yes fish git 
+
+      - name: Run tests
+        run: tests/test.fish
