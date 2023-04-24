@@ -16,8 +16,10 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v3
 
-      - name: Install deps
-        run: sudo apt-get update --yes && sudo apt-get install --yes fish git 
+      - uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: fish git
+          version: 0.0.20230423
 
       - name: Run tests
-        run: tests/test.fish
+        run: test/test.fish
